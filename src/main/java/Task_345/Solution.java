@@ -38,6 +38,10 @@ public class Solution {
     private static boolean isVowel(char symbol) {
         char lowercase = Character.toLowerCase(symbol);
         return lowercase == 'a' || lowercase == 'e' || lowercase == 'i' || lowercase == 'o' || lowercase == 'u';
+
+        //альтернатива
+        // String vowels = "aeiouAEIOU";
+        // vowels.indexOf(mass[i]) == -1
     }
 
 }
